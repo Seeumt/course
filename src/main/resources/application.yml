@@ -14,8 +14,8 @@ valueList:
 room:
   id: 1
   name: 会议室
-  doorNum: 2
-  windowNum: 3
+  door_num: 2
+  window-num: 3
   area: 100
 
 

@@ -25,7 +25,9 @@ public class StudentController {
         log.info("This is info");
         log.warn("This is warn");
         log.debug("This is debug");
-        log.error("This is error");
+        log.error("This is err" +
+                "" +
+                "or");
         return student;
     }
 
