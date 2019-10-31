@@ -11,6 +11,14 @@ valueList:
   -13579
   -246810
 
+room:
+  id: 1
+  name: 会议室
+  doorNum: 2
+  windowNum: 3
+  area: 100
+
+
 valueMapList:
   - name: bob
     age: 21

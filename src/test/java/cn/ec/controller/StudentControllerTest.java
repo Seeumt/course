@@ -1,6 +1,8 @@
 package cn.ec.controller;
 
+import cn.ec.config.RoomConfig;
 import cn.ec.pojo.Language;
+import cn.ec.pojo.Room;
 import org.apache.ibatis.annotations.Lang;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,8 +26,8 @@ public class StudentControllerTest {
     private int[] fruits;
     @Value("${valueList}")
     private List list;
-    @Value("${valueMapList}")
-    private List<Map> mapList;
+//    @Value("${valueMapList}")
+//    private List<Map> mapList;
     @Autowired
     private Language language;
     @Test
@@ -42,5 +44,14 @@ public class StudentControllerTest {
     public void getByName2() {
         System.out.println(language.getName());
         System.out.println(language.getLevel());
+    }
+
+    @Autowired
+    private Room room;
+    @Test
+    public void testRoom() {
+        System.out.println(room);
+        System.out.println(room.getArea());
+
     }
 }
