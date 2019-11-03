@@ -2,6 +2,9 @@ package cn.ec.pojo;
 
 import org.omg.PortableInterceptor.INACTIVE;
 
+import java.util.List;
+import java.util.Map;
+
 public class Room {
 
     private Integer id;
@@ -14,6 +17,12 @@ public class Room {
 
     private Integer area;
 
+    private Map keyOwner;
+
+    private List openDay;
+
+    private Builder builder;
+
     @Override
     public String toString() {
         return "Room{" +
@@ -22,7 +31,34 @@ public class Room {
                 ", doorNum=" + doorNum +
                 ", windowNum=" + windowNum +
                 ", area=" + area +
+                ", keyOwner=" + keyOwner +
+                ", openDay=" + openDay +
+                ", builder=" + builder +
                 '}';
+    }
+
+    public Builder getBuilder() {
+        return builder;
+    }
+
+    public void setBuilder(Builder builder) {
+        this.builder = builder;
+    }
+
+    public Map getKeyOwner() {
+        return keyOwner;
+    }
+
+    public void setKeyOwner(Map keyOwner) {
+        this.keyOwner = keyOwner;
+    }
+
+    public List getOpenDay() {
+        return openDay;
+    }
+
+    public void setOpenDay(List openDay) {
+        this.openDay = openDay;
     }
 
     public Integer getId() {
