@@ -1,5 +1,6 @@
-name: wind
-age: 20
+student:
+  name: yml
+  age: 20
 
 room:
   id: 1
@@ -42,3 +43,6 @@ spring:
 
   server:
      port: 8677
+  mvc:
+    favicon:
+      enabled: false

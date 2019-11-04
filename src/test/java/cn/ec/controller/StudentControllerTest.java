@@ -3,6 +3,7 @@ package cn.ec.controller;
 import cn.ec.config.RoomConfig;
 import cn.ec.pojo.Language;
 import cn.ec.pojo.Room;
+import cn.ec.pojo.Student;
 import cn.ec.service.RoomService;
 import org.apache.ibatis.annotations.Lang;
 import org.junit.Test;
@@ -23,34 +24,10 @@ import static org.junit.Assert.*;
 @RunWith(SpringRunner.class)
 
 public class StudentControllerTest {
-    @Value("${name}")
-    private String name;
-    @Value("${age}")
-    private Integer age;
-    @Value("${fruits}")
-    private int[] fruits;
-    @Value("${valueList}")
-    private List list;
-//    @Value("${valueMapList}")
-//    private List<Map> mapList;
+
+
     @Autowired
-    private Language language;
-    @Test
-    public void getByName() {
-        System.out.println(name);
-        System.out.println(age);
-//        for (int fruit : fruits) {
-//            System.out.println(fruit);
-//        } 循环遍历fruits 这个是for-each循环
-
-    }
-
-    @Test
-    public void getByName2() {
-        System.out.println(language.getName());
-        System.out.println(language.getLevel());
-    }
-
+    private Student student;
     @Autowired
     private Room room;
     @Autowired
@@ -60,6 +37,7 @@ public class StudentControllerTest {
         System.out.println(room);
         System.out.println(room.getArea());
         roomService.say();
+        System.out.println(student);
     }
 
 
