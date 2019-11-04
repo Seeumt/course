@@ -37,12 +37,12 @@ spring:
 
 #  spring.devtools.restart.enabled=true
 
-  mybatis:
-    mapper-locations: classpath:mapper/*.xml
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
 #    mybatis: configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
 
-  server:
-     port: 8677
-  mvc:
-    favicon:
-      enabled: false
+server:
+    port: 8677
+#mvc:
+#  favicon:
+#    enabled: false
