@@ -8,6 +8,29 @@
 <h2>成功!</h2>
 <hr/>
 <!--th:text会将获取到的数据写到标签体中-->
-<p th:text="${msg}"></p>
+<h1 th:text="'你好! '+#{home.welcome(${msg})}+'!!!'">家庭地址</h1>
+<hr>
+<h1 th:text="'你好! '+#{home.address}+'!!!'">家庭地址</h1>
+<hr>
+    <table border="1px">
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+        </tr>
+        <tr th:each="stu,iterStat :${list}">
+            <td th:text="${stu.name}"></td>
+            <td th:text="${stu.age}"></td>
+        </tr>
+    </table>
+    <h3 th:if="not ${#lists.isEmpty(list)}">我不是空的！</h3>
+    <h3 th:unless="${#lists.isEmpty(list)}">我真的不是空的！</h3>
+
+    <div th:each="stu,iterStat :${list}">
+        <div th:switch="${stu.age}">
+            <p th:case="10">小学生</p>
+            <p th:case="15">中学生</p>
+            <p th:case="20">大学生</p>
+        </div>
+    </div>
 </body>
 </html>

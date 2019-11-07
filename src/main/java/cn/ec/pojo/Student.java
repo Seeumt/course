@@ -5,14 +5,18 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
-@Data
-@Component
-@ConfigurationProperties(prefix = "student")
-@PropertySource("classpath:student.properties")
+//@Data
+//@Component
+//@ConfigurationProperties(prefix = "student")
+//@PropertySource("classpath:student.properties")
 public class Student {
 
-    private String name;
+    public String name;
 
-    private Integer age;
+    public Integer age;
 
+    public Student(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
 }

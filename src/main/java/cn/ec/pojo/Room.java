@@ -23,6 +23,11 @@ public class Room {
 
     private Builder builder;
 
+
+//    public Room(String name) {
+//        this.name = name;
+//    }
+
     @Override
     public String toString() {
         return "Room{" +

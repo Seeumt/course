@@ -34,6 +34,8 @@ spring:
           password: 123456
           driver-class-name: com.mysql.jdbc.Driver
           type: com.alibaba.druid.pool.DruidDataSource
+  messages:
+    basename: i18n/message
 
 #  spring.devtools.restart.enabled=true
 
@@ -42,7 +44,8 @@ mybatis:
 #    mybatis: configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
 
 server:
-    port: 8677
+    port: 8080
 #mvc:
 #  favicon:
 #    enabled: false
+
