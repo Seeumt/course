@@ -28,6 +28,8 @@ public class StudentController {
         log.error("This is err" +
                 "" +
                 "or");
+//        Integer i = 1 / 0;
+
         return student;
     }
 
