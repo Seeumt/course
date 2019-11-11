@@ -28,8 +28,9 @@ public class StudentController {
         log.error("This is err" +
                 "" +
                 "or");
-//        Integer i = 1 / 0;
-
+        if (student == null) {
+            throw new RuntimeException("没找到哦");
+        }
         return student;
     }
 
