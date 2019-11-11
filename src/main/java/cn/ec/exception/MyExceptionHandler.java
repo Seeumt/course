@@ -14,6 +14,7 @@ import java.util.Map;
 public class MyExceptionHandler extends RuntimeException {
 
     @ExceptionHandler(Exception.class)
+
     public String  handlerException(Exception e,HttpServletRequest request) {
         Map<String, Object> map = new HashMap<>();
         map.put("code", "666");
@@ -21,4 +22,5 @@ public class MyExceptionHandler extends RuntimeException {
         request.setAttribute("javax.servlet.error.status_code", 500);
         return "forward:/error";
     }
+
 }
