@@ -14,7 +14,6 @@ import java.util.Map;
 public class MyExceptionHandler extends RuntimeException {
 
     @ExceptionHandler(Exception.class)
-
     public String  handlerException(Exception e,HttpServletRequest request) {
         Map<String, Object> map = new HashMap<>();
         map.put("code", "666");
