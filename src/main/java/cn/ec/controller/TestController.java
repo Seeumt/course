@@ -1,15 +1,14 @@
 package cn.ec.controller;
 
 import cn.ec.pojo.Builder;
-import cn.ec.pojo.Room;
 import cn.ec.pojo.Student;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -36,6 +35,15 @@ public class TestController {
         list.add(new Student("s2", 20));
         model.addAttribute("list", list);
         return "success";
+    }
+
+    @RequestMapping( {"/test"} )
+    @ResponseBody
+    public Builder test() {
+        Builder builder = new Builder();
+        builder.setId(1);
+        builder.setName("XCMG");
+        return builder;
     }
 
 
