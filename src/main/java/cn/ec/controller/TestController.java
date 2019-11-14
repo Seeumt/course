@@ -87,6 +87,7 @@ public class TestController {
     }
 
     @GetMapping("/c5/{id}/{name}")
+    @ResponseBody
     public Builder c5(@PathVariable Integer id, @PathVariable String name){
         Builder builder = new Builder();
         builder.setId(id);
