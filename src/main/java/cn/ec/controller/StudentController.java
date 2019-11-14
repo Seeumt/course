@@ -15,11 +15,15 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping(value = "/students",method= RequestMethod.GET)
 @Slf4j
 public class StudentController {
-    
+
     @Autowired
     private StudentService studentService;
 
-    @GetMapping(value = "/get",consumes = "application/json",produces = MediaType.APPLICATION_JSON_VALUE,params={"my=hi","msg=666"},headers = "myh=head")
+    @GetMapping(value = "/get",
+            consumes = "application/json",
+            produces = MediaType.APPLICATION_JSON_VALUE,
+            params={"my=hi","msg=666"},
+            headers = "myh=head")
     @ResponseBody
     public Student getByName(String name) {
         Student student = studentService.getByName(name);
