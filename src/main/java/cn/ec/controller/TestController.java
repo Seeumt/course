@@ -3,7 +3,9 @@ package cn.ec.controller;
 import cn.ec.pojo.Builder;
 import cn.ec.pojo.Person;
 import cn.ec.pojo.Student;
+import cn.ec.pojo.User;
 import org.springframework.http.HttpEntity;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -165,8 +167,9 @@ public class TestController {
     }
 
     @RequestMapping(value = "/c12", method = RequestMethod.POST, consumes="application/xml")
-    public void c12(HttpServletRequest req ,@RequestBody(required = false) Person person) {
+    public @ResponseBody Person c12(HttpServletRequest req ,@RequestBody(required = false) Person person) {
         System.out.println(person);
+        return person;
     }
 
     @RequestMapping(value = "/c13", method = RequestMethod.POST, consumes = "application/json")
@@ -232,5 +235,16 @@ public class TestController {
         return builder;
     }
 
+    @RequestMapping(value = "/c20", produces = MediaType.APPLICATION_JSON_VALUE)
+    public @ResponseBody Object getList() {
+        List<Builder> list = new ArrayList<>();
+        list.add(new Builder(6, null));
+        return list;
+    }
+
+    @RequestMapping(value = "/c21", method = RequestMethod.POST, consumes = "application/xxx-custom")
+    public @ResponseBody User converter(@RequestBody User user) {
+        return user;
+    }
 
 }

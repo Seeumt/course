@@ -7,12 +7,12 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
 public class Builder {
-    @Max(value = 2,message ="嘿嘿")
-    @Min(1)
+
     private Integer id;
 
-    @NotNull
     private String name;
+
+
 
     @Override
     public String toString() {
@@ -35,6 +35,14 @@ public class Builder {
     }
 
     public void setName(String name) {
+        this.name = name;
+    }
+
+    public Builder() {
+    }
+
+    public Builder(Integer id,String name) {
+        this.id = id;
         this.name = name;
     }
 }
