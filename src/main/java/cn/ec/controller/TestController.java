@@ -3,13 +3,15 @@ package cn.ec.controller;
 import cn.ec.pojo.Builder;
 import cn.ec.pojo.Person;
 import cn.ec.pojo.Student;
+import org.springframework.http.HttpEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
-
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -167,6 +169,68 @@ public class TestController {
         System.out.println(person);
     }
 
+    @RequestMapping(value = "/c13", method = RequestMethod.POST, consumes = "application/json")
+    public void c13(HttpEntity<Builder> b) {
+        Builder body = b.getBody();
+
+        System.out.println(body);
+    }
+
+    @RequestMapping(value = "/c14", method = RequestMethod.POST, consumes = "application/json")
+    public void c14(HttpServletRequest req, @RequestBody Builder builder) {
+        System.out.println(builder);
+
+    }
+
+    @RequestMapping(value = "/c15", method = RequestMethod.POST, consumes = "application/json")
+    public void c15(@RequestBody Builder builder) {
+        System.out.println(builder);
+    }
+
+//    @ModelAttribute("b")
+//    public Builder c16() {
+//        Builder builder = new Builder();
+//        builder.setId(6);
+//        builder.setName("hhhh");
+//        return builder;
+//    }
+
+//    //无返回值
+//    @ModelAttribute("b")
+//    public void c160(Model model) {
+//        Builder builder = new Builder();
+//        builder.setId(8);
+//        builder.setName("xxxxx");
+//        model.addAttribute("bui", builder);
+//    }
+//
+//    @ModelAttribute("b")
+//    @RequestMapping("ok")
+//    public void c1600(Model model) {
+//        Builder builder = new Builder();
+//        builder.setId(8);
+//        builder.setName("xxxxx");
+//        model.addAttribute("bui", builder);
+//    }
+
+
+    @RequestMapping(value = "/c17")
+    public String c17(Model model) {
+        System.out.println(model.toString());
+        return "ok";
+    }
+
+    @RequestMapping(value = "/c18")
+    public String c18() {
+        return "ok";
+    }
+
+    @RequestMapping(value = "/c19")
+
+    public @ResponseBody Builder c19(@Valid Builder builder, BindingResult result) {
+        System.out.println(result);
+        return builder;
+    }
 
 
 }

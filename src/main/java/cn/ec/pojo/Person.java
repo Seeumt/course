@@ -11,4 +11,14 @@ public class Person {
     @JacksonXmlProperty(localName = "shortname")
     private String shortName;
     //……
+
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", shortName='" + shortName + '\'' +
+                '}';
+    }
 }
