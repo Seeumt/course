@@ -6,10 +6,12 @@ import cn.ec.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
 @Service
 public class StudentServiceImpl implements StudentService {
 
-    @Autowired
+    @Resource
     private StudentMapper studentMapper;
     @Override
     public Student getByName(String name) {
@@ -18,18 +20,18 @@ public class StudentServiceImpl implements StudentService {
     }
 
     public void save(Student student) {
-        System.out.println("save");
+        studentMapper.saveStudent(student);
     }
 
     @Override
     public int update(Student student) {
-        System.out.println("update");
+        studentMapper.updateStudent(student);
         return 0;
     }
 
     @Override
-    public int delete(Integer name) {
-        System.out.println("delete");
+    public int delete(Integer id) {
+        studentMapper.deleteStudent(id);
         return 0;
     }
 

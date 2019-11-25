@@ -7,4 +7,5 @@ public interface StudentService {
     void save(Student student);
     int update(Student student);
     int delete(Integer name);
+
 }

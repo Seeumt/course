@@ -40,8 +40,8 @@ public class TestController {
     @GetMapping("/list")
     public String list(Model model) {
         List list = new ArrayList<>();
-        list.add(new Student("s1", 10));
-        list.add(new Student("s2", 20));
+        list.add(new Student(1,"s1", 10));
+        list.add(new Student(2,"s2", 20));
         model.addAttribute("list", list);
         return "success";
     }
