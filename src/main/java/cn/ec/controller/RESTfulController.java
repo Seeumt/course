@@ -60,6 +60,24 @@ public class RESTfulController {
             log.info(e.getMessage());
         }
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
+    }
 
+    @DeleteMapping(value = "/")
+    public ResponseEntity<Void> delete(@RequestParam("id") Integer id) {
+
+        try {
+
+            if (id < 1) {
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+            }
+                int count = studentService.delete(id);
+
+
+            return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+
+        } catch (Exception e) {
+            log.info(e.getMessage());
+        }
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
     }
 }

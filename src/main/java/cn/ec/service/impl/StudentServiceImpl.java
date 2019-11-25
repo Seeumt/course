@@ -27,5 +27,11 @@ public class StudentServiceImpl implements StudentService {
         return 0;
     }
 
+    @Override
+    public int delete(Integer name) {
+        System.out.println("delete");
+        return 0;
+    }
+
 
 }

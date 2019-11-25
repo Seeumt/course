@@ -6,4 +6,5 @@ public interface StudentService {
     Student getByName(String name);
     void save(Student student);
     int update(Student student);
+    int delete(Integer name);
 }
