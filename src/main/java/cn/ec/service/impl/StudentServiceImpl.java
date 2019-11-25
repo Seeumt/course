@@ -13,6 +13,19 @@ public class StudentServiceImpl implements StudentService {
     private StudentMapper studentMapper;
     @Override
     public Student getByName(String name) {
+//        int a = 5 / 0;
         return studentMapper.getByName(name);
     }
+
+    public void save(Student student) {
+        System.out.println("save");
+    }
+
+    @Override
+    public int update(Student student) {
+        System.out.println("update");
+        return 0;
+    }
+
+
 }
