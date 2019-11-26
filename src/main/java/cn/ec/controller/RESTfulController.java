@@ -66,12 +66,10 @@ public class RESTfulController {
     public ResponseEntity<Void> delete(@RequestParam("id") Integer id) {
 
         try {
-
             if (id < 1) {
                 return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
             }
                 int count = studentService.delete(id);
-
 
             return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
 

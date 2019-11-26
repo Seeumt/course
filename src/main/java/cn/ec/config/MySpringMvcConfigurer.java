@@ -1,6 +1,7 @@
 package cn.ec.config;
 
 import cn.ec.converter.MyMessageConverter;
+
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
