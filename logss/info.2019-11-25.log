@@ -1,0 +1,765 @@
+Starting CourseApplication on DESKTOP-OBR54SP with PID 115788 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$98bad09] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2492 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 6.049 seconds (JVM running for 8.787)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 7 ms
+getContextPath:
+getServletPath:/students
+getRequestURI:/students
+getRequestURL:http://localhost:8080/students
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/error
+getRequestURI:/error
+getRequestURL:http://localhost:8080/error
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'id' is not present]
+getContextPath:
+getServletPath:/error
+getRequestURI:/error
+getRequestURL:http://localhost:8080/error
+postHandle!!
+afterCompletion!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 105612 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7202a835] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2388 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 4.546 seconds (JVM running for 5.567)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+Invalid bound statement (not found): cn.ec.dao.StudentMapper.saveStudent
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 109824 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e394dbe3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1977 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 4.167 seconds (JVM running for 6.576)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 8 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+Invalid bound statement (not found): cn.ec.dao.StudentMapper.saveStudent
+postHandle!!
+afterCompletion!!
+Shutting down ExecutorService 'applicationTaskExecutor'
+{dataSource-0} closing ...
+Starting CourseApplication on DESKTOP-OBR54SP with PID 115804 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2b1f567] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2360 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 4.268 seconds (JVM running for 5.065)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 117176 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$512708e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2175 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 4.699 seconds (JVM running for 5.534)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 7 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+postHandle!!
+afterCompletion!!
+Shutting down ExecutorService 'applicationTaskExecutor'
+{dataSource-1} closing ...
+{dataSource-1} closed
+Starting CourseApplication on DESKTOP-OBR54SP with PID 115764 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b1f38c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1967 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 3.836 seconds (JVM running for 4.522)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 7 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 113588 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$479c4ea6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1886 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 3.846 seconds (JVM running for 4.483)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 22 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 117248 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$48566213] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1918 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 3.716 seconds (JVM running for 4.333)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where stu.id=9' at line 4
+### The error may exist in file [D:\course\target\classes\mapper\StudentMapper.xml]
+### The error may involve cn.ec.dao.StudentMapper.updateStudent-Inline
+### The error occurred while setting parameters
+### SQL: update student stu set stu.id=?,               stu.name=?,               stu.age=?,       where stu.id=?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where stu.id=9' at line 4
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where stu.id=9' at line 4
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 105516 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f24ffeb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2490 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 4.512 seconds (JVM running for 5.194)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 7 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where stu.id=9' at line 4
+### The error may exist in file [D:\course\target\classes\mapper\StudentMapper.xml]
+### The error may involve cn.ec.dao.StudentMapper.updateStudent-Inline
+### The error occurred while setting parameters
+### SQL: update student stu set               stu.name=?,               stu.age=?,       where stu.id=?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where stu.id=9' at line 4
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where stu.id=9' at line 4
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 112204 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$56525644] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1966 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 3.946 seconds (JVM running for 4.644)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id=9' at line 4
+### The error may exist in file [D:\course\target\classes\mapper\StudentMapper.xml]
+### The error may involve cn.ec.dao.StudentMapper.updateStudent-Inline
+### The error occurred while setting parameters
+### SQL: update student stu set               stu.name=?,               stu.age=?,       where id=?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id=9' at line 4
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id=9' at line 4
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 114352 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5e32df4a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1771 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 3.818 seconds (JVM running for 4.471)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 7 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id=9' at line 4
+### The error may exist in file [D:\course\target\classes\mapper\StudentMapper.xml]
+### The error may involve cn.ec.dao.StudentMapper.updateStudent-Inline
+### The error occurred while setting parameters
+### SQL: update student set               name=?,               age=?,       where id=?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id=9' at line 4
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id=9' at line 4
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 72296 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d207e638] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2904 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 4.803 seconds (JVM running for 5.512)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 7 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 106720 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb083cba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2967 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 5.662 seconds (JVM running for 6.682)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 8 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 117976 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$19ff3c65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2313 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 4.472 seconds (JVM running for 5.228)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '19' for key 'PRIMARY'
+### The error may exist in file [D:\course\target\classes\mapper\StudentMapper.xml]
+### The error may involve cn.ec.dao.StudentMapper.saveStudent-Inline
+### The error occurred while setting parameters
+### SQL: insert into student(          id,name,age      )values(     ?,     ?,     ?     )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '19' for key 'PRIMARY'
+; Duplicate entry '19' for key 'PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '19' for key 'PRIMARY'
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 118640 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f724ba20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1899 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 4.0 seconds (JVM running for 4.841)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 7 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '19' for key 'PRIMARY'
+### The error may exist in file [D:\course\target\classes\mapper\StudentMapper.xml]
+### The error may involve cn.ec.dao.StudentMapper.saveStudent-Inline
+### The error occurred while setting parameters
+### SQL: insert into student(     id,     name,     age     )values(     ?,     ?,     ?     )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '19' for key 'PRIMARY'
+; Duplicate entry '19' for key 'PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '19' for key 'PRIMARY'
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 110116 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$70a266a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1814 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 3.984 seconds (JVM running for 4.682)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '19' for key 'PRIMARY'
+### The error may exist in file [D:\course\target\classes\mapper\StudentMapper.xml]
+### The error may involve cn.ec.dao.StudentMapper.saveStudent-Inline
+### The error occurred while setting parameters
+### SQL: insert into student(     id,     name,     age     )values(     ?,     ?,     ?     )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '19' for key 'PRIMARY'
+; Duplicate entry '19' for key 'PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '19' for key 'PRIMARY'
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 118284 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$afa80811] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2601 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 5.139 seconds (JVM running for 5.886)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 8 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+postHandle!!
+afterCompletion!!
+Starting CourseApplication on DESKTOP-OBR54SP with PID 118248 (D:\course\target\classes started by Admin in D:\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7d595c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2101 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 3.973 seconds (JVM running for 4.714)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+{dataSource-1} inited
+
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '19' for key 'PRIMARY'
+### The error may exist in file [D:\course\target\classes\mapper\StudentMapper.xml]
+### The error may involve cn.ec.dao.StudentMapper.saveStudent-Inline
+### The error occurred while setting parameters
+### SQL: insert into student(      id,name,age      )values(     ?,     ?,     ?     )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '19' for key 'PRIMARY'
+; Duplicate entry '19' for key 'PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '19' for key 'PRIMARY'
+postHandle!!
+afterCompletion!!
+getContextPath:
+getServletPath:/students/
+getRequestURI:/students/
+getRequestURL:http://localhost:8080/students/
+postHandle!!
+afterCompletion!!
