@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.ec.dao.UserRoleMapper">
+  <resultMap id="BaseResultMap" type="cn.ec.model.UserRole">
+    <id column="pid" jdbcType="VARCHAR" property="pid" />
+    <id column="role_sn" jdbcType="VARCHAR" property="roleSn" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="cn.ec.model.UserRole">
+    delete from user_role
+    where pid = #{pid,jdbcType=VARCHAR}
+      and role_sn = #{roleSn,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="cn.ec.model.UserRole">
+    insert into user_role (pid, role_sn)
+    values (#{pid,jdbcType=VARCHAR}, #{roleSn,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="cn.ec.model.UserRole">
+    insert into user_role
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="pid != null">
+        pid,
+      </if>
+      <if test="roleSn != null">
+        role_sn,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="pid != null">
+        #{pid,jdbcType=VARCHAR},
+      </if>
+      <if test="roleSn != null">
+        #{roleSn,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ok</title>
+</head>
+<body>
+<h2>ok!</h2>
+<hr/>
+<!--th:text会将获取到的数据写到标签体中-->
+<p th:text="${test}"></p>
+<p th:text="${#request.getAttribute('msg')}"></p>
+<p th:text="${#request.getAttribute('name')}"></p>
+<p th:text="${id}"></p>
+<p th:text="${name}"></p>
+<!--<p th:text="${builder.id}"></p>-->
+<!--<p th:text="${builder.name}"></p>-->
+<h1>==============================</h1>
+<!--<p th:text="${b.id}"></p>-->
+<!--<p th:text="${b.name}"></p>-->
+<p th:text="${bui.id}"></p>
+<p th:text="${bui.name}"></p>
+
+
+
+</body>
+</html>
