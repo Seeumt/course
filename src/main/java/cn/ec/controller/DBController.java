@@ -25,6 +25,7 @@ public class DBController {
     public Map<String, Object> getByName() {
         List<Map<String, Object>> list = jdbcTemplate.queryForList("select * from student");
         System.out.println("//");
+        System.out.println("//");
         return list.get(0);
     }
 

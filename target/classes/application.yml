@@ -1,0 +1,51 @@
+student:
+  name: yml
+  age: 20
+
+room:
+  id: 1
+  name: 会议室
+  door_num: 2
+  window-num: 3
+  area: 100
+  keyOwner:
+    p1: Allen
+    p2: Bob
+  openDay:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  builder:
+    id: 001
+    name: Stone
+
+
+language:
+  name: java
+  level: 6
+
+spring:
+  datasource:
+          name: ec
+          url: jdbc:mysql://127.0.0.1/ec?characterEncoding=utf-8&useSSL=false
+          username: root
+          password: 123456
+          driver-class-name: com.mysql.jdbc.Driver
+          type: com.alibaba.druid.pool.DruidDataSource
+  messages:
+    basename: i18n/message
+
+#  spring.devtools.restart.enabled=true
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+#    mybatis: configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
+
+server:
+    port: 8080
+#mvc:
+#  favicon:
+#    enabled: false
+
