@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.ec.dao.ResourceMapper">
+  <resultMap id="BaseResultMap" type="cn.ec.model.Resource">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="resource_sn" jdbcType="VARCHAR" property="resourceSn" />
+    <result column="resource_name" jdbcType="VARCHAR" property="resourceName" />
+    <result column="resource_type" jdbcType="VARCHAR" property="resourceType" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+    <result column="parent_resource_sn" jdbcType="VARCHAR" property="parentResourceSn" />
+    <result column="has_menu_children" jdbcType="BIT" property="hasMenuChildren" />
+    <result column="show_sequence" jdbcType="INTEGER" property="showSequence" />
+    <result column="deleted" jdbcType="BIT" property="deleted" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, resource_sn, resource_name, resource_type, url, parent_resource_sn, has_menu_children, 
+    show_sequence, deleted
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from resource
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from resource
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.ec.model.Resource">
+    insert into resource (id, resource_sn, resource_name, 
+      resource_type, url, parent_resource_sn, 
+      has_menu_children, show_sequence, deleted
+      )
+    values (#{id,jdbcType=INTEGER}, #{resourceSn,jdbcType=VARCHAR}, #{resourceName,jdbcType=VARCHAR}, 
+      #{resourceType,jdbcType=VARCHAR}, #{url,jdbcType=VARCHAR}, #{parentResourceSn,jdbcType=VARCHAR}, 
+      #{hasMenuChildren,jdbcType=BIT}, #{showSequence,jdbcType=INTEGER}, #{deleted,jdbcType=BIT}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="cn.ec.model.Resource">
+    insert into resource
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="resourceSn != null">
+        resource_sn,
+      </if>
+      <if test="resourceName != null">
+        resource_name,
+      </if>
+      <if test="resourceType != null">
+        resource_type,
+      </if>
+      <if test="url != null">
+        url,
+      </if>
+      <if test="parentResourceSn != null">
+        parent_resource_sn,
+      </if>
+      <if test="hasMenuChildren != null">
+        has_menu_children,
+      </if>
+      <if test="showSequence != null">
+        show_sequence,
+      </if>
+      <if test="deleted != null">
+        deleted,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="resourceSn != null">
+        #{resourceSn,jdbcType=VARCHAR},
+      </if>
+      <if test="resourceName != null">
+        #{resourceName,jdbcType=VARCHAR},
+      </if>
+      <if test="resourceType != null">
+        #{resourceType,jdbcType=VARCHAR},
+      </if>
+      <if test="url != null">
+        #{url,jdbcType=VARCHAR},
+      </if>
+      <if test="parentResourceSn != null">
+        #{parentResourceSn,jdbcType=VARCHAR},
+      </if>
+      <if test="hasMenuChildren != null">
+        #{hasMenuChildren,jdbcType=BIT},
+      </if>
+      <if test="showSequence != null">
+        #{showSequence,jdbcType=INTEGER},
+      </if>
+      <if test="deleted != null">
+        #{deleted,jdbcType=BIT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.ec.model.Resource">
+    update resource
+    <set>
+      <if test="resourceSn != null">
+        resource_sn = #{resourceSn,jdbcType=VARCHAR},
+      </if>
+      <if test="resourceName != null">
+        resource_name = #{resourceName,jdbcType=VARCHAR},
+      </if>
+      <if test="resourceType != null">
+        resource_type = #{resourceType,jdbcType=VARCHAR},
+      </if>
+      <if test="url != null">
+        url = #{url,jdbcType=VARCHAR},
+      </if>
+      <if test="parentResourceSn != null">
+        parent_resource_sn = #{parentResourceSn,jdbcType=VARCHAR},
+      </if>
+      <if test="hasMenuChildren != null">
+        has_menu_children = #{hasMenuChildren,jdbcType=BIT},
+      </if>
+      <if test="showSequence != null">
+        show_sequence = #{showSequence,jdbcType=INTEGER},
+      </if>
+      <if test="deleted != null">
+        deleted = #{deleted,jdbcType=BIT},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.ec.model.Resource">
+    update resource
+    set resource_sn = #{resourceSn,jdbcType=VARCHAR},
+      resource_name = #{resourceName,jdbcType=VARCHAR},
+      resource_type = #{resourceType,jdbcType=VARCHAR},
+      url = #{url,jdbcType=VARCHAR},
+      parent_resource_sn = #{parentResourceSn,jdbcType=VARCHAR},
+      has_menu_children = #{hasMenuChildren,jdbcType=BIT},
+      show_sequence = #{showSequence,jdbcType=INTEGER},
+      deleted = #{deleted,jdbcType=BIT}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,60 @@
+Starting CourseApplication on LAPTOP-LKP8ICJ8 with PID 18540 (D:\MyProject\course\target\classes started by Seeumt in D:\MyProject\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f30360bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1565 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: getByNameUsingGET_2
+Generating unique operation named: getListUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 3.325 seconds (JVM running for 4.896)
+Starting CourseApplication on LAPTOP-LKP8ICJ8 with PID 28072 (D:\MyProject\course\target\classes started by Seeumt in D:\MyProject\course)
+No active profile set, falling back to default profiles: default
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$78d08c50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.26]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1830 ms
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Adding welcome page: class path resource [static/index.html]
+Context refreshed
+Found 1 custom documentation plugin(s)
+Scanning for api listing references
+Generating unique operation named: getByNameUsingGET_1
+Generating unique operation named: getByNameUsingGET_2
+Generating unique operation named: getListUsingGET_1
+Generating unique operation named: successUsingGET_1
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CourseApplication in 3.647 seconds (JVM running for 4.443)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 7 ms
+getContextPath:
+getServletPath:/users/02
+getRequestURI:/users/02
+getRequestURL:http://localhost:8080/users/02
+{dataSource-1} inited
+postHandle!!
+afterCompletion!!
