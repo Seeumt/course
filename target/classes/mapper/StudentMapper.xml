@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.ec.dao.StudentMapper">
+
+    <resultMap id="BaseResultMap" type="cn.ec.pojo.Student">
+        <result column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="age" property="age"/>
+    </resultMap>
+
+    <sql id="comColumns">id,name,age</sql>
+
+    <select id="getByName" resultMap="BaseResultMap">
+        select
+            *
+         from student
+        WHERE name=#{name};
+    </select>
+
+    <insert id="saveStudent" parameterType="cn.ec.pojo.Student">
+    insert into student(
+    <include refid="comColumns"></include>
+    )values(
+    #{id},
+    #{name},
+    #{age}
+    )
+    </insert>
+
+
+    <delete id="deleteStudent" parameterType="int">
+     	delete  from student where id=#{id}
+     </delete>
+
+    <update id="updateStudent0" parameterType="cn.ec.pojo.Student">
+     	update student set
+     					    name=#{name},
+     					    age=#{age},
+     	where id=#{id}
+     </update>
+
+    <update id="updateStudent" parameterType="cn.ec.pojo.Student">
+    update student set name = #{name},age = #{age} where id = #{id}
+    </update>
+
+</mapper>
