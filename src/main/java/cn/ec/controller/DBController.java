@@ -9,7 +9,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.util.List;
 import java.util.Map;
 
@@ -24,6 +23,7 @@ public class DBController {
     @GetMapping(value = "/",produces = MediaType.APPLICATION_JSON_VALUE)
     public Map<String, Object> getByName() {
         List<Map<String, Object>> list = jdbcTemplate.queryForList("select * from student");
+        System.out.println("//");
         System.out.println("//");
         System.out.println("//");
         return list.get(0);
