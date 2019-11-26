@@ -13,7 +13,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/ec/controller/DBController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,8 +49,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../常用软件/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="D:\常用软件\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="mavenHome" value="D:/devs/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\devs\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -198,6 +198,7 @@
       <workItem from="1574670079968" duration="831000" />
       <workItem from="1574670973303" duration="5691000" />
       <workItem from="1574765389219" duration="2135000" />
+      <workItem from="1574768731929" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="日志">
       <created>1572192193080</created>
@@ -231,13 +232,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15688000" />
+    <option name="totallyTimeSpent" value="15722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1488" height="880" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34405595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34895104" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
