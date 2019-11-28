@@ -2,7 +2,6 @@ package cn.ec.controller;
 
 import cn.ec.model.User;
 import cn.ec.service.UserService;
-import org.omg.CORBA.PUBLIC_MEMBER;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -11,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/users")
@@ -35,6 +35,16 @@ public class DBController {
     @GetMapping(value = "/02",produces = MediaType.APPLICATION_JSON_VALUE)
     public User getUserId(Integer id) {
         return userService.getUserById(id);
+    }
+
+    @GetMapping(value = "/03",produces = MediaType.APPLICATION_JSON_VALUE)
+    public Optional<User> findById(Integer id) {
+        return userService.findById(id);
+    }
+
+    @GetMapping(value = "/04",produces = MediaType.APPLICATION_JSON_VALUE)
+    public List<User> findOne(String userSn) {
+        return userService.findOne(userSn);
     }
 
 }

@@ -139,7 +139,7 @@
       deleted = #{deleted,jdbcType=BIT}
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <select id="getUserById" resultMap="BaseResultMap" parameterType="int">
+  <select id="getUserById" resultMap="BaseResultMap">
     select
      *
     from
