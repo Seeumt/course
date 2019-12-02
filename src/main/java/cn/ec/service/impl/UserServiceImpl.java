@@ -9,6 +9,7 @@ import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @Service
@@ -37,6 +38,15 @@ public class UserServiceImpl implements UserService {
         return users;
     }
 
+    @Override
+    public User selectByIdAndPid(Integer id, Integer pid) {
+        return userMapper.selectByIdAndPid(id,pid);
+    }
+
+    @Override
+    public User query(Map map) {
+        return userMapper.query(map);
+    }
 
 
 }

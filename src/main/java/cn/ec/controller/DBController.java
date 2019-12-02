@@ -8,6 +8,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -46,5 +48,19 @@ public class DBController {
     public List<User> findOne(String userSn) {
         return userService.findOne(userSn);
     }
+
+    @GetMapping(value = "/05",produces = MediaType.APPLICATION_JSON_VALUE)
+    public User selectByIdAndPid(Integer id, Integer pid) {
+        return userService.selectByIdAndPid(id, pid);
+    }
+
+    @GetMapping(value = "/06",produces = MediaType.APPLICATION_JSON_VALUE)
+    public User query(Integer id, Integer pid) {
+        Map<String,Object> map = new HashMap<>();
+        map.put("id", id);
+        map.put("pid", pid);
+        return userService.query(map);
+    }
+
 
 }

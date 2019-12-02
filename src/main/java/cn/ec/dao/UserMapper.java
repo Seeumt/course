@@ -1,10 +1,10 @@
 package cn.ec.dao;
 
 import cn.ec.model.User;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
+
+import java.util.Map;
+
 @Mapper
 public interface UserMapper {
 //    @Select("select * from user where id=#{id}")
@@ -27,4 +27,8 @@ public interface UserMapper {
     int updateByPrimaryKeySelective(User record);
 
     int updateByPrimaryKey(User record);
+
+    User selectByIdAndPid(@Param("idd") Integer id,@Param("pdd") Integer pid);
+
+    User query(Map map);
 }

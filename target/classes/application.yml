@@ -36,7 +36,11 @@ spring:
           type: com.alibaba.druid.pool.DruidDataSource
   messages:
     basename: i18n/message
-
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: mysql
 #  spring.devtools.restart.enabled=true
 
 mybatis:
