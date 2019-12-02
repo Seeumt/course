@@ -162,4 +162,12 @@
     user
     where id=#{id} and pid=#{pid};
   </select>
+
+  <select id="queryByUser" resultMap="BaseResultMap">
+    select
+     *
+    from
+    user
+    where id=#{id} and pid=#{pid};
+  </select>
 </mapper>

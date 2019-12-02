@@ -48,5 +48,11 @@ public class UserServiceImpl implements UserService {
         return userMapper.query(map);
     }
 
+    @Override
+    public User queryByUser(User user) {
+        return userMapper.queryByUser(user);
+    }
+
 
 }
+

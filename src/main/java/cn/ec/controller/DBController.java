@@ -62,5 +62,12 @@ public class DBController {
         return userService.query(map);
     }
 
+    @GetMapping(value = "/07",produces = MediaType.APPLICATION_JSON_VALUE)
+    public User queryByUser(User user) {
+//        user.setId(2);
+//        user.setPid("3230");
+        return userService.queryByUser(user);
+    }
+
 
 }

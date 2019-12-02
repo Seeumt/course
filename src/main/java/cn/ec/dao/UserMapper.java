@@ -31,4 +31,6 @@ public interface UserMapper {
     User selectByIdAndPid(@Param("idd") Integer id,@Param("pdd") Integer pid);
 
     User query(Map map);
+
+    User queryByUser(User user);
 }

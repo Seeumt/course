@@ -16,4 +16,7 @@ public interface UserService {
     User selectByIdAndPid(Integer id, Integer pid);
 
     User query(Map map);
+
+    User queryByUser(User user);
+
 }
