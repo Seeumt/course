@@ -19,4 +19,9 @@ public interface UserService {
 
     User queryByUser(User user);
 
+    List<User> queryByIds(List<Integer> ids);
+
+    List<User> queryByUserIds(cn.ec.dto.User user);
+
+    List<User> queryByArrayIds(Integer[] ids);
 }

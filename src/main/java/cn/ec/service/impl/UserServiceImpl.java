@@ -53,6 +53,21 @@ public class UserServiceImpl implements UserService {
         return userMapper.queryByUser(user);
     }
 
+    @Override
+    public List<User> queryByIds(List<Integer> ids) {
+        return userMapper.queryByIds(ids);
+    }
+
+    @Override
+    public List<User> queryByUserIds(cn.ec.dto.User user) {
+        return userMapper.queryByUserIds(user);
+    }
+
+    @Override
+    public List<User> queryByArrayIds(Integer[] ids) {
+        return userMapper.queryByArrayIds(ids);
+    }
+
 
 }
 

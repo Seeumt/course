@@ -170,4 +170,41 @@
     user
     where id=#{id} and pid=#{pid};
   </select>
+
+
+  <select id="queryByIds" resultMap="BaseResultMap">
+    select
+     *
+    from
+    user
+    where id in
+    <foreach collection="list" item="item" index="index" open="(" separator="," close=")">
+      #{item}
+    </foreach>
+  </select>
+
+
+  <select id="queryByUserIds" resultMap="BaseResultMap" parameterType="cn.ec.dto.User">
+    select
+    *
+    from
+    user
+    where id in
+    <foreach collection="ids" item="item" index="index" open="(" separator="," close=")">
+      #{item}
+    </foreach>
+  </select>
+
+
+  <select id="queryByArrayIds" resultMap="BaseResultMap">
+    select
+    *
+    from
+    user
+    where id in
+    <foreach collection="array" item="item" index="index" open="(" separator="," close=")">
+      #{item}
+    </foreach>
+  </select>
+
 </mapper>

@@ -3,6 +3,7 @@ package cn.ec.dao;
 import cn.ec.model.User;
 import org.apache.ibatis.annotations.*;
 
+import java.util.List;
 import java.util.Map;
 
 @Mapper
@@ -33,4 +34,11 @@ public interface UserMapper {
     User query(Map map);
 
     User queryByUser(User user);
+
+    List<User> queryByIds(List<Integer> ids);
+
+    List<User> queryByUserIds(cn.ec.dto.User user);
+
+    List<User> queryByArrayIds(Integer[] ids);
+
 }
