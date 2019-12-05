@@ -18,7 +18,7 @@ public class StudentServiceImpl implements StudentService {
 //        int a = 5 / 0;
         return studentMapper.getByName(name);
     }
-
+    @Override
     public void save(Student student) {
         studentMapper.saveStudent(student);
     }

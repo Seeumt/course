@@ -10,21 +10,24 @@ public class User {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Integer id;
-//    @Column(name = "pid")
     private String pid;
-//    @Column(name = "mobile_number")
+    @Transient
+    private Card card;
+
+    public Card getCard() {
+        return card;
+    }
+
+    public void setCard(Card card) {
+        this.card = card;
+    }
+
     private String mobileNumber;
-//    @Column(name = "user_sn")
     private String userSn;
-//    @Column(name = "user_name")
     private String userName;
- //   @Column(name = "pwd")
     private String pwd;
- //   @Column(name = "last_password_reset_date")
     private Date lastPasswordResetDate;
- //   @Column(name = "enabled")
     private Boolean enabled;
- //   @Column(name = "deleted")
     private Boolean deleted;
 
     public Integer getId() {

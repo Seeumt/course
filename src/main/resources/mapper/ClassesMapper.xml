@@ -17,5 +17,5 @@
 		where ct.cid=c.cid
 		and ct.tid=t.tid
 		and c.cid=#{cid}
-	</select>
+  </select>
 </mapper>

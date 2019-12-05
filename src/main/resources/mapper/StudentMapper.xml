@@ -19,11 +19,10 @@
         WHERE name=#{name};
     </select>
 
-    <insert id="saveStudent" parameterType="cn.ec.pojo.Student">
+    <insert id="saveStudent" parameterType="cn.ec.pojo.Student" useGeneratedKeys="true" keyProperty="id">
     insert into student(
-    <include refid="comColumns"></include>
+    name,age
     )values(
-    #{id},
     #{name},
     #{age}
     )

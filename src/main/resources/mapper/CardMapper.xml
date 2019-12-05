@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.ec.dao.CardMapper">
+  <resultMap id="BaseResultMap" type="cn.ec.model.Card">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="pid" jdbcType="VARCHAR" property="pid"/>
+    <result column="issued_date" jdbcType="TIMESTAMP" property="issuedDate" />
+    <result column="deadline" jdbcType="TIMESTAMP" property="deadline"/>
+  </resultMap>
+  <select id="selectCardByPid" resultMap="BaseResultMap">
+    select
+    *
+    from
+    card
+    where
+    pid=#{pid}
+  </select>
+
+</mapper>

@@ -14,7 +14,10 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/users")
-public class DBController {
+/**
+ * @author rx
+ */
+public class DbController {
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
@@ -54,7 +57,7 @@ public class DBController {
 
     @GetMapping(value = "/06",produces = MediaType.APPLICATION_JSON_VALUE)
     public User query(Integer id, Integer pid) {
-        Map<String,Object> map = new HashMap<>();
+        Map<String,Object> map = new HashMap<>(100);
         map.put("id", id);
         map.put("pid", pid);
         return userService.query(map);
@@ -62,8 +65,6 @@ public class DBController {
 
     @GetMapping(value = "/07",produces = MediaType.APPLICATION_JSON_VALUE)
     public User queryByUser(User user) {
-//        user.setId(2);
-//        user.setPid("3230");
         return userService.queryByUser(user);
     }
 

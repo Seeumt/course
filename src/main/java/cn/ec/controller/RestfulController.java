@@ -13,7 +13,10 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/students")
 @Slf4j
-public class RESTfulController {
+/**
+ * @author seeumt
+ */
+public class RestfulController {
     @Autowired
     private StudentService studentService;
 
