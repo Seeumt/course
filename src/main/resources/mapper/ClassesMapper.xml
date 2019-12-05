@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.ec.dao.ClassMapper">
+  <!-- 自定义结果映射 -->
+  <resultMap type="cn.ec.model.Class" id="ClassesWithTeacherResult">
+    <id property="cid" column="cid"/>
+    <result property="cname" column="cname"/>
+    <!-- 多表关联映射 -->
+    <collection property="teachers" ofType="cn.ec.model.Teacher">
+      <id property="tid" column="tid"/>
+      <result property="tname" column="tname"/>
+    </collection>
+  </resultMap>
+  <select id="findClassesWithTeacher" parameterType="Integer" resultMap="ClassesWithTeacherResult">
+		select * from class c,teacher t,classes_teacher ct
+		where ct.cid=c.cid
+		and ct.tid=t.tid
+		and c.cid=#{cid}
+	</select>
+</mapper>
