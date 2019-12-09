@@ -41,4 +41,6 @@ public interface UserMapper {
 
     List<User> queryByArrayIds(Integer[] ids);
 
+    List<User> selectByDepartmentSn(String departmentSn);
+
 }

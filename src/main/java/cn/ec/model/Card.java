@@ -14,6 +14,6 @@ public class Card {
 
     private Date deadline;
 
-    private User user;
+//    private User user;
 
 }

@@ -1,11 +1,17 @@
 package cn.ec.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.boot.autoconfigure.web.ResourceProperties;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
+
 @Entity
 @Table(name = "user")
+//@JsonIgnoreProperties(value={"Department"})
+
 public class User {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
@@ -13,6 +19,9 @@ public class User {
     private String pid;
     @Transient
     private Card card;
+    @Transient
+    @JsonIgnore
+    private Department department;
 
     public Card getCard() {
         return card;
@@ -29,6 +38,23 @@ public class User {
     private Date lastPasswordResetDate;
     private Boolean enabled;
     private Boolean deleted;
+    private String departmentSn;
+
+    public String getDepartmentSn() {
+        return departmentSn;
+    }
+
+    public void setDepartmentSn(String departmentSn) {
+        this.departmentSn = departmentSn;
+    }
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
 
     public Integer getId() {
         return id;
