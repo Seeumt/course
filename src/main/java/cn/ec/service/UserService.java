@@ -1,6 +1,8 @@
 package cn.ec.service;
 
 import cn.ec.model.User;
+import cn.ec.pojo.Params;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 import java.util.Map;
@@ -24,4 +26,9 @@ public interface UserService {
     List<User> queryByUserIds(cn.ec.dto.User user);
 
     List<User> queryByArrayIds(Integer[] ids);
+
+//    List<User> selectByDepartmentSn(String departmentSn,Integer count);
+    List<User> selectByDepartmentSn(Params params);
+
+    List<User> selectByDepartmentSnOfMap(Map<String, Object> map);
 }

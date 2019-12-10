@@ -1,6 +1,8 @@
 package cn.ec.dao;
 
 import cn.ec.model.User;
+import cn.ec.pojo.Params;
+import io.swagger.models.auth.In;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
@@ -41,6 +43,9 @@ public interface UserMapper {
 
     List<User> queryByArrayIds(Integer[] ids);
 
-    List<User> selectByDepartmentSn(String departmentSn);
+//    List<User> selectByDepartmentSn(String departmentSn);
+//    List<User> selectByDepartmentSn(@Param("departmentSn") String departmentSn, @Param("count") Integer count);
+    List<User> selectByDepartmentSn(Params params);
 
+    List<User> selectByDepartmentSnOfMap(Map<String, Object> map);
 }

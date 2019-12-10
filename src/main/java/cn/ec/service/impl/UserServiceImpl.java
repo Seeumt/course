@@ -2,6 +2,7 @@ package cn.ec.service.impl;
 
 import cn.ec.dao.UserMapper;
 import cn.ec.model.User;
+import cn.ec.pojo.Params;
 import cn.ec.repository.UserRepository;
 import cn.ec.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -66,6 +67,16 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<User> queryByArrayIds(Integer[] ids) {
         return userMapper.queryByArrayIds(ids);
+    }
+
+    @Override
+    public List<User> selectByDepartmentSn(Params params) {
+        return userMapper.selectByDepartmentSn(params);
+    }
+
+    @Override
+    public List<User> selectByDepartmentSnOfMap(Map<String, Object> map) {
+        return userMapper.selectByDepartmentSnOfMap(map);
     }
 
 
