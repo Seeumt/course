@@ -44,4 +44,8 @@
     update student set name = #{name},age = #{age} where id = #{id}
     </update>
 
+
+    <select id="queryAll" resultMap="BaseResultMap">
+        select * from student
+    </select>
 </mapper>

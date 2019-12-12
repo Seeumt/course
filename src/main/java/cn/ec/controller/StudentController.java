@@ -1,6 +1,7 @@
 package cn.ec.controller;
 import cn.ec.pojo.Student;
 import cn.ec.service.StudentService;
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -9,6 +10,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
 
 
 @Controller
@@ -38,6 +41,23 @@ public class StudentController {
             throw new RuntimeException("没找到哦");
         }
         return student;
+    }
+
+    @GetMapping("/")
+    @ResponseBody
+    public List<Student> findAll() {
+        List<Student> all = studentService.findAll();
+        return all;
+
+    }
+
+    @GetMapping(value = "/page",produces = MediaType.APPLICATION_JSON_VALUE)
+    @ResponseBody
+    public List<Student> page(Integer current,Integer size) {
+        IPage<Student> studentIPage = studentService.queryAll(current, size);
+        List<Student> records = studentIPage.getRecords();
+        return records;
+
     }
 
 

@@ -38,12 +38,17 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.1" />
-          <element id="library" level="project" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:2.1.1" />
+          <element id="library" level="project" name="Maven: com.baomidou:mybatis-plus-boot-starter:3.3.0" />
+          <element id="library" level="project" name="Maven: com.baomidou:mybatis-plus:3.3.0" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: com.baomidou:mybatis-plus-generator:3.3.0" />
+          <element id="library" level="project" name="Maven: com.baomidou:mybatis-plus-extension:3.3.0" />
+          <element id="library" level="project" name="Maven: com.baomidou:mybatis-plus-core:3.3.0" />
+          <element id="library" level="project" name="Maven: com.baomidou:mybatis-plus-annotation:3.3.0" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:3.1" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.3" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:2.0.3" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.1.7.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: net.bytebuddy:byte-buddy:1.9.16" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.9.RELEASE" />

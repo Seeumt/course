@@ -29,7 +29,6 @@ public class RoleServiceImpl implements RoleService {
         roleMapper.insert(role1);
         int i = 10 / 0;
         roleMapper.insert(role2);
-
         return 1;
 
     }
